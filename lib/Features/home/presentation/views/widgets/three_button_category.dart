@@ -8,7 +8,8 @@ import '../../../../../core/utils/widgets/custom_btn.dart';
 
 // ignore: must_be_immutable
 class ThreeButtonCategory extends StatefulWidget {
-  ThreeButtonCategory({super.key, required this.ontap,required this.selectedButton});
+  ThreeButtonCategory(
+      {super.key, required this.ontap, required this.selectedButton});
   final Function ontap;
   int selectedButton;
 
@@ -17,7 +18,6 @@ class ThreeButtonCategory extends StatefulWidget {
 }
 
 class _ThreeButtonCategoryState extends State<ThreeButtonCategory> {
-
   void handleButtonPress(int buttonIndex) {
     setState(() {
       widget.selectedButton = buttonIndex;
@@ -53,7 +53,8 @@ class _ThreeButtonCategoryState extends State<ThreeButtonCategory> {
                   backgroundColor: widget.selectedButton == 1
                       ? AppConstants.kPrimaryColor
                       : const Color(0xffF2F2F2),
-                  textColor: widget.selectedButton == 1 ? Colors.white : Colors.black,
+                  textColor:
+                      widget.selectedButton == 1 ? Colors.white : Colors.black,
                 ),
                 CustomBtn(
                   text: "Services",
@@ -64,7 +65,8 @@ class _ThreeButtonCategoryState extends State<ThreeButtonCategory> {
                   backgroundColor: widget.selectedButton == 2
                       ? AppConstants.kPrimaryColor
                       : const Color(0xffF2F2F2),
-                  textColor: widget.selectedButton == 2 ? Colors.white : Colors.black,
+                  textColor:
+                      widget.selectedButton == 2 ? Colors.white : Colors.black,
                 ),
                 CustomBtn(
                   text: "Order (0)",
@@ -75,7 +77,8 @@ class _ThreeButtonCategoryState extends State<ThreeButtonCategory> {
                   backgroundColor: widget.selectedButton == 3
                       ? AppConstants.kPrimaryColor
                       : const Color(0xffF2F2F2),
-                  textColor: widget.selectedButton == 3 ? Colors.white : Colors.black,
+                  textColor:
+                      widget.selectedButton == 3 ? Colors.white : Colors.black,
                 )
               ],
             ),
