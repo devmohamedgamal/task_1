@@ -45,7 +45,7 @@ class _ThreeButtonCategoryState extends State<ThreeButtonCategory> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 CustomBtn(
-                  text: "Category",
+                  text: "Users",
                   onPressed: () {
                     handleButtonPress(1);
                     widget.ontap(widget.selectedButton);

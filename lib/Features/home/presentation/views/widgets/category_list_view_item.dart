@@ -3,11 +3,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:task_1/core/utils/app_constants.dart';
 
-class CategoryListViewItem extends StatelessWidget {
-  const CategoryListViewItem(
-      {super.key, required this.title, required this.icon, this.onTap});
-  final String title, icon;
+class UsersListViewItem extends StatelessWidget {
+  const UsersListViewItem(
+      {super.key, required this.title, this.onTap, required this.id});
+  final String title;
   final Function()? onTap;
+  final int id;
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +27,7 @@ class CategoryListViewItem extends StatelessWidget {
               height: 1.3,
             ),
           ),
-          leading: SvgPicture.asset(icon),
+          leading: Text("$id"),
           trailing: const Icon(Icons.east),
         ),
       ),

@@ -60,7 +60,7 @@ class _CategoryWidgetSectionState extends State<CategoryWidgetSection> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "Categories View",
+                            "Users View",
                             style: TextStyle(
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w400,
@@ -81,7 +81,7 @@ class _CategoryWidgetSectionState extends State<CategoryWidgetSection> {
                           ),
                         ],
                       ),
-                      const CategoryListView(),
+                      const UsersListView(),
                     ],
                   ),
                   const CategoryItemWidget(
