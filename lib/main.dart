@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:task_1/Features/root/presentation/views/root_view.dart';
 
 import 'Features/home/presentation/views/home_view.dart';
 
@@ -10,7 +11,6 @@ void main() {
 class Task1 extends StatelessWidget {
   const Task1({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
@@ -18,9 +18,12 @@ class Task1 extends StatelessWidget {
         minTextAdapt: true,
         splitScreenMode: true,
         builder: (_, child) {
-          return const MaterialApp(
+          return MaterialApp(
             debugShowCheckedModeBanner: false,
-            home: HomeView(),
+            theme: ThemeData(
+              fontFamily: "Outfit",
+            ),
+            home: const RootView(),
           );
         });
   }
