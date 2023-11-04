@@ -8,5 +8,8 @@ class AssetsManger {
   static const String kItemIcon3 = 'assets/images/item3.svg';
   static const String kItemIcon4 = 'assets/images/item4.svg';
   static const String kItemIcon5 = 'assets/images/item5.svg';
+  static const String kNoOrder = 'assets/images/noOrder.svg';
+  static const String kEmptyBag = 'assets/images/emptybag.png';
+
 
 }
