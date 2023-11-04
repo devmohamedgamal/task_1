@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task_1/Features/root/presentation/views/root_view.dart';
-
-import 'Features/home/presentation/views/home_view.dart';
-
+// ------------------------------ Users Branch -----------------------------------//
 void main() {
   runApp(const Task1());
 }
