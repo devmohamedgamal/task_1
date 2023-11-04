@@ -21,6 +21,7 @@ class UsersListView extends StatelessWidget {
                 title: state.users[index].name ??
                     "unknown", // or we can put "!" null check oprator
                 id: state.users[index].id ?? 0,
+                onTap: () {},
               );
             },
           ),
