@@ -1,11 +1,8 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:task_1/Features/home/presentation/manger/cubit/user_cubit.dart';
-import 'package:task_1/core/utils/widgets/custom_error_widget.dart';
-import 'package:task_1/core/utils/widgets/custom_loading_indecator.dart';
+import '../../manger/cubit/user_cubit.dart';
+import '../../../../../core/utils/widgets/custom_error_widget.dart';
+import '../../../../../core/utils/widgets/custom_loading_indecator.dart';
 import 'category_list_view_item.dart';
 
 class UsersListView extends StatelessWidget {

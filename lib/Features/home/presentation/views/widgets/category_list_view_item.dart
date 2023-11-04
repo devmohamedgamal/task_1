@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
-import 'package:task_1/core/utils/app_constants.dart';
+import '../../../../../core/utils/app_constants.dart';
 
 class UsersListViewItem extends StatelessWidget {
   const UsersListViewItem(

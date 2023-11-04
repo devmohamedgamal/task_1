@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task_1/Features/home/presentation/manger/cubit/user_cubit.dart';
-import 'package:task_1/Features/home/presentation/views/home_view.dart';
+import '../../../home/presentation/manger/cubit/user_cubit.dart';
+import '../../../home/presentation/views/home_view.dart';
 import '../../../assets/presentation/views/assets_view.dart';
 import '../../../profile/presentation/views/profile_view.dart';
 import '../../../support/presentation/views/support_view.dart';

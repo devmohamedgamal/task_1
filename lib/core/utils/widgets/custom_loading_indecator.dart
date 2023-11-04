@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_1/core/utils/app_constants.dart';
+import '../app_constants.dart';
 
 class CustomLoadingIndecator extends StatelessWidget {
   const CustomLoadingIndecator({super.key});

@@ -2,11 +2,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:task_1/Features/home/data/repos/user_repo_impl.dart';
-import 'package:task_1/Features/root/presentation/views/root_view.dart';
-import 'package:task_1/core/utils/app_service.dart';
-
-import 'Features/home/data/repos/user_repo.dart';
+import 'Features/home/data/repos/user_repo_impl.dart';
+import 'Features/root/presentation/views/root_view.dart';
+import 'core/utils/app_service.dart';
 import 'Features/home/presentation/manger/cubit/user_cubit.dart';
 
 // ------------------------------ Users Branch -----------------------------------//

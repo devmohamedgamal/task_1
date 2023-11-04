@@ -2,10 +2,10 @@ import 'dart:developer';
 
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:task_1/Features/home/data/models/user_model/user_model.dart';
-import 'package:task_1/Features/home/data/repos/user_repo.dart';
-import 'package:task_1/core/utils/app_service.dart';
-import 'package:task_1/core/utils/errors/failure.dart';
+import '../models/user_model/user_model.dart';
+import 'user_repo.dart';
+import '../../../../core/utils/app_service.dart';
+import '../../../../core/utils/errors/failure.dart';
 
 class UserRepoImpl implements UserRepo {
   final ApiService apiService;
